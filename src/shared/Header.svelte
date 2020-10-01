@@ -317,7 +317,7 @@
           position: static;
         }
       }
-      
+
       .search {
         bottom: -1px;
         left: 40px;
@@ -325,7 +325,7 @@
 
         @include desktop {
           position: static;
-          margin-top:1px;
+          margin-top: 1px;
         }
       }
     }

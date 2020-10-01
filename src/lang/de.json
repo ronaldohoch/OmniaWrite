@@ -342,8 +342,8 @@
     "action": "Abschicken",
     "success": "Abgeschickt!"
   },
-  "search":{
-    "title":"Suche"
+  "search": {
+    "title": "Suche"
   },
   "placeholder": {
     "title": "Titel eingeben"

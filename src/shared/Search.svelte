@@ -1,17 +1,13 @@
 <script>
   import { _ } from "svelte-i18n";
-  import {
-    Input,
-    ButtonGroup,
-    Button
-  } from "../components/Forms";
+  import { Input, ButtonGroup, Button } from "../components/Forms";
 
   import Modal from "./Modal.svelte";
 
   import { ui } from "../stores";
 
   let loading = false;
-  let searchText="";
+  let searchText = "";
 </script>
 
 <Modal bind:show={$ui.search.show}>
@@ -25,9 +21,7 @@
       required={true}
       placeholder="" />
     <ButtonGroup>
-        <Button {loading}>
-            {$_('feedback.action')}
-        </Button>
+      <Button {loading}>{$_('feedback.action')}</Button>
     </ButtonGroup>
   </form>
 </Modal>

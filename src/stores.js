@@ -446,9 +446,9 @@ export const ui = writable({
   support: {
     show: false,
   },
-  search:{
-    show:false
-  }
+  search: {
+    show: false,
+  },
 });
 
 const updateLocalTimestamp = () => {
