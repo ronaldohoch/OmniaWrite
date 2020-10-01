@@ -15,6 +15,7 @@
   import Toast from "./shared/Toast.svelte";
   import Install from "./shared/Install.svelte";
   import Support from "./shared/Support.svelte";
+  import Search from "./shared/Search.svelte";
   import Spinner from "./shared/Spinner.svelte";
   import NewBackup from "./shared/NewBackup.svelte";
   import NewUpdate from "./shared/NewUpdate.svelte";
@@ -153,6 +154,7 @@
 {:else}
   <div class="container">
     <Support />
+    <Search />
     <NewUpdate bind:show={showChangelog} />
     {#if $state.isUserLoggedIn}
       <NewBackup />

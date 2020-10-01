@@ -342,6 +342,11 @@
     "action": "Submit",
     "success": "Submitted!"
   },
+  "search":{
+    "title":"Search",
+    "sub":"Search for anything anywhere!",
+    "searchLabel":"Search"
+  },
   "placeholder": {
     "title": "Enter your title"
   }

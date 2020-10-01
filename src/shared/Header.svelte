@@ -132,6 +132,10 @@
             style="-webkit-app-region: no-drag" />
         {/if}
         <span
+          class="lnr lnr lnr-magnifier titlebar search"
+          style="-webkit-app-region: no-drag"
+          on:click={() => ($ui.search.show = true)} />
+        <span
           class="lnr lnr-question-circle titlebar feedback"
           style="-webkit-app-region: no-drag"
           on:click={() => ($ui.support.show = true)} />
@@ -311,6 +315,17 @@
 
         @include desktop {
           position: static;
+        }
+      }
+      
+      .search {
+        bottom: -1px;
+        left: 40px;
+        position: absolute;
+
+        @include desktop {
+          position: static;
+          margin-top:1px;
         }
       }
     }
